@@ -1,13 +1,13 @@
 # London bike sharing SQL data analysis
 
 ## Overview:
+In this project I used SQL Data Manipulation Language and Data Query Langauge (such as Joins, Window functions, Case, Date functions, Aggregates, Alter Table) to analyse the records of public bicycle usage in London, UK from August 2023. The scope of analysis was to find more about station performance (i.e Which stations are most used) and cycling preferences(i.e ride time per bike model).
 
-In this project I analysed the records of public bycicle usage in London, UK, in August 2023 using SQL Data Manipulation Language and Data Query Langauge
-(Joins, Window functions, Case, Date functions, Aggregates, Alter Table).
 
 ## Data set
+The data set is a single CSV file, obtained from Kaggle containing records of 776,527 bicycle journeys from the Transport for London (TfL) Cycle Hire system spanning from August 1 to August 31, 2023. The TfL Cycle Hire initiative provides publicly accessible bicycles for rent across London, promoting sustainable transportation and physical fitness. This dataset provides a snapshot of cycling activity during the month, including start and end details for each journey, the bicycle used, and the duration of hire. <br>
 
-The data set is a single CSV file, obtained from Kaggle containing records of 776,527 bicycle journeys from the Transport for London (TfL) Cycle Hire system spanning from August 1 to August 31, 2023. The TfL Cycle Hire initiative provides publicly accessible bicycles for rent across London, promoting sustainable transportation and physical fitness. This dataset captures individual trip data, and is used to analyze station performance (i.e Which stations are most used), and cycling preferences(i.e ride time per bike model) among London's population. This dataset provides a snapshot of cycling activity during the month, including start and end details for each journey, the bicycle used, and the duration of hire. <br>
+Data set link: https://www.kaggle.com/datasets/kalacheva/london-bike-share-usage-dataset
 
 
 **Data dictionary:**
@@ -34,3 +34,7 @@ The data set is a single CSV file, obtained from Kaggle containing records of 77
 5. Find the 3rd busiest day of the month based on the nr.of trips.
 6. For how many times was each bike used in August 2023? Provide the median bike usage.
 7. What are top 5 the most used start and end station?
+
+## Credits:
+
+Thanks to Svetlana Kalacheva for making this data set more  accessible in Kaggle. https://www.kaggle.com/kalacheva. 
