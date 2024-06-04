@@ -1,4 +1,4 @@
-# London bike sharing data analysis for 01-31 August 2023
+# London bike sharing SQL data analysis
 
 ## Overview:
 
